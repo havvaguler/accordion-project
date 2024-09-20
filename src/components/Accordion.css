@@ -1,0 +1,39 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.wrapper button {
+    cursor: pointer;
+    padding: .5rem 1rem;
+    background: #60c9c0;
+    color: #ffffff;
+}
+
+
+.item {
+    background: #614101;
+    margin-bottom: .5rem;
+    padding: .5rem 1rem;
+}
+
+.item span {
+    font-size: 2rem;
+}
+
+.title {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.answer {
+    color: #ffffff;
+    height: auto;
+}
